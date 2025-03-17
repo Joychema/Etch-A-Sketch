@@ -1,0 +1,36 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width:480px ;
+    height:480px;
+    border: 1px solid black;
+}
+.grid{
+    width: 20px;
+    height: 20px;
+    background-color: wheat;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* to include border in width and height */
+}
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+ }  
+ /* .hover{
+    background-color: black;
+ } */
+button{
+    /* align-content: center; */
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
